@@ -720,7 +720,7 @@ def admin_command(message):
         bot.reply_to(message, "🚫 هذا الأمر للمطورين فقط.")
         return
     admin_text = (
-        "<b>❍─── <u>YOUR_NAME_BOT</u> ───❍</b>\n\n"
+        "<b>❍─── <u>3lloshBOT</u> ───❍</b>\n\n"
         "<b>👋 مرحباً بك يا مطور في لوحة التحكم.</b>\n\n"
         f"<b>• الوقت الحالي: <u>{datetime.now().strftime('%H:%M')}</u></b>\n"
         "<b>────────────────────</b>"
@@ -735,7 +735,7 @@ def send_welcome(message):
     # 1. فحص وضع الصيانة (Maintenance Mode) مع صورة
     if is_maintenance_mode() and not is_admin(user_id):
         maintenance_caption = (
-            "<b>❍─── <u>YOUR_NAME Bot</u> ───❍</b>\n\n"
+            "<b>❍─── <u>3llosh Bot</u> ───❍</b>\n\n"
             "<b>⚠️ عذراً عزيزي المستخدم..</b>\n"
             "<b>البوت الآن في وضع الصيانة لتحديث الخدمات.</b>\n\n"
             "<b>⏳ يرجى المحاولة مرة أخرى لاحقاً.</b>\n"
@@ -830,8 +830,8 @@ def send_welcome(message):
 
     # 6. الرسالة الترحيبية المنسقة
     fancy_text = (
-        "<b>❍<u>YOUR_NAME • 𝑩𝒐𝒕 </u>❍</b>\n\n"
-        "<b>🔋 <u>مـنـور بـوت • YOUR_NAME • يـحـب</u></b>\n\n"
+        "<b>❍<u>3llosh • 𝑩𝒐𝒕 </u>❍</b>\n\n"
+        "<b>🔋 <u>مـنـور بـوت • 3llosh • يـحـب</u></b>\n\n"
         "<b>🎓 <u>الـمـطـور</u>  • <a href='https://t.me/Y_I_l_l'>3llosh</a></b>\n\n"
         "<b>────────────────────</b>\n"
         "<b><u>اخـتـر الــدولـة الـتـي تـريـدهـا مـن الـزر الاسـفـل</u> ⬇️</b>"
