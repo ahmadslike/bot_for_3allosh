@@ -1,1 +1,1 @@
-worker: python hamo.py
+worker: python bot_3llosh.py
