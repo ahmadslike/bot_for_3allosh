@@ -1829,7 +1829,7 @@ def login_to_ivasms():
         IVASMS_COOKIES = 
             'ivas_sms_session': 'eyJpdiI6InRhMGtBVVpCKzNwMEx5cW1EZzhlV0E9PSIsInZhbHVlIjoiK0RRby93NnlSOTRrZ3FYYSsrZDZLakNkQXNWS3NrakM4ZThBWUJCenFreHlVT2Uwd2RaODdFVVJDMDVVSVZVSGJ6OW1BOVplNVVzNVduSEgxajRmTHM5MjJmQUVhNjJidEl0VjZKaHFrQXB6b2NSV1hrWlpaMXU5QnI2R0psNEUiLCJtYWMiOiIzYjBhYzYzMWI0ZjdiMWRkMDAxMDI3MTVkY2MxNWZjNjg4NmI0ZDY0NTI0YWI4YzA2MTBkNzMyNzkxYTgxZTM1IiwidGFnIjoiIn0%3D',
             'XSRF-TOKEN': 'eyJpdiI6Iml1bGhKaVhRUnU4QUtwMXkxR0NLeUE9PSIsInZhbHVlIjoiMFhJQXoyYmdnQjI4azFGU1FucmxwV2YvNWpsREdtWktLQmhweURmb2QyR2h2WWtSa3RueGFGTzRyYnBYSXMycnV2b21Xam5WcjI1OEFiSFloSFdHVldzSm5HOUdWNUo3a2t5Q2tnZGp1QVRLYm1XUjN2d1pFWkpDc1o4L3lScnUiLCJtYWMiOiJmZGM4ZTAyYWM2NzBiYjk4ODRjZTUwY2MyMzczYzdkNjEwYWQ4NmFkZWEzY2ZlNDYwMTdjMzhkMjJkMjc5ZGE3IiwidGFnIjoiIn0%3D',
-        })
+        )
 for name, value in IVASMS_COOKIES.items():
             session.cookies.set(name, value, domain='www.ivasms.com')
 
